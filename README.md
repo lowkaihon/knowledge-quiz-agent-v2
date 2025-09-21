@@ -1,7 +1,7 @@
 # Personal Knowledge Quiz
 
 
-This is a **Personal Knowledge Quiz Agent** web app with the following features:
+This is a **Personal Knowledge Quiz** web app with the following features:
 
 **🎯Core Functionality**
 - Users can upload study material (PDF, DOCX, TXT) or paste text directly.
@@ -38,4 +38,25 @@ This is a **Personal Knowledge Quiz Agent** web app with the following features:
   3. Take quiz.
   4. View results & feedback.
 
+
+## Setup
+
+1. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+2. Create `.env.local` file:
+
+   ```bash
+   echo "OPENAI_API_KEY=your_openai_api_key_here" > .env.local
+   ```
+
+3. Start development:
+   ```bash
+   pnpm dev
+   ```
+
+Open [http://localhost:3000](http://localhost:3000) to start using the Personal Knowledge Quiz web app.
 
