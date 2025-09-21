@@ -60,3 +60,8 @@ This is a **Personal Knowledge Quiz** web app with the following features:
 
 Open [http://localhost:3000](http://localhost:3000) to start using the Personal Knowledge Quiz web app.
 
+
+# Development Notes
+- Short answer (fill-in-the-blank) questions seem to only accept exact matches. May require LLM to evaluate these open-ended answers.
+- Example PDF to use for quiz: https://53.fs1.hubspotusercontent-na1.net/hubfs/53/An_Introduction_to_JavaScript.pdf
+
