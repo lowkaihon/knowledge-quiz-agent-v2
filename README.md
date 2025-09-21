@@ -1,30 +1,41 @@
 # Personal Knowledge Quiz
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kaihon333haha-5908s-projects/v0-personal-knowledge-quiz)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/zGxxvcTrBli)
+This is a **Personal Knowledge Quiz Agent** web app with the following features:
 
-## Overview
+**🎯Core Functionality**
+- Users can upload study material (PDF, DOCX, TXT) or paste text directly.
+- The app extracts text from the uploaded files or uses the pasted text directly.
+- Use gpt-4o-mini via AI-SDK to process the content and generate quizzes.
+- Support any combinations of question types:
+  - Multiple-choice (with 1 correct answer + distractors)
+  - True/False
+  - Short answer (fill-in-the-blank)
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+**⚙️Customization**
+- Allow users to:
+  - Choose quiz length (# of questions).
+  - Select difficulty level (easy, medium, hard).
+  - Pick question type(s).
 
-## Deployment
+**🧑‍💻 Practice Mode**
+- Users can take the generated quiz inside the app.
+- After answering, show:
+  - Correct answer
+  - Explanation (from original notes as much as possible)
+- Track results (score, % correct).
 
-Your project is live at:
 
-**[https://vercel.com/kaihon333haha-5908s-projects/v0-personal-knowledge-quiz](https://vercel.com/kaihon333haha-5908s-projects/v0-personal-knowledge-quiz)**
+**🌐 UI / UX**
+- Clean, minimal design (like Revisely and Quizlet).
+- Minimalistic design:
+  - No authentication required. Users can just start using the app.
+  - No need for external database. Use local storage.
 
-## Build your app
+- Flow:
+  1. Upload notes / paste text.
+  2. onfigure quiz options.
+  3. Take quiz.
+  4. View results & feedback.
 
-Continue building your app on:
 
-**[https://v0.app/chat/projects/zGxxvcTrBli](https://v0.app/chat/projects/zGxxvcTrBli)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
